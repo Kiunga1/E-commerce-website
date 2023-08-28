@@ -23,7 +23,6 @@ a {
     padding: 35px 20px;
     text-align: center;
     z-index: 2;
-    
 }
 
 .headline h1 {
@@ -79,7 +78,8 @@ ul li {
     font-family: 'Dosis';
     text-transform: uppercase;
     color: #000;
-    border-bottom: 0.5px solid #000;
+    text-decoration: underline;
+   
 }
 
 @media (min-width:900px) {
