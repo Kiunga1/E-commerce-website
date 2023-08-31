@@ -9,6 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,200&family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
     <!-- STYLE -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/blog.css">
+    <link rel="stylesheet" href="./css/products.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <script src="https://unpkg.com/feather-icons"></script>
     <title>T-MART - We serve you better.</title>
 </head>
@@ -23,9 +26,9 @@
             <nav class="mainmenu">
                 <ul>
                     <li><a href="#">Portifolio</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
 
@@ -48,24 +51,120 @@
         <div class="overlay"></div>
     </section>
 
-    <section class="message">
-        <div class="message_container">
-            <div class="furniture_collection">
-                <h3>New Furniture Collection</h3>
+    <section class="categories" id="shop">
+        <div class="categories_container">
+            <div class="category furniture_collection">
+                <h2>New Furniture <span class="break"> Collection</span></h2>
                 <div class="shopnow_btn">
                     <a href="#">Shop Now</a>
+                    <i data-feather="minus" ></i>
                 </div>
             </div>
     
-            <div class="basket_collection">
-                <h3>New Baskets Collection</h3>
-                <div class="shopnow_btn"><a href="#">Shop Now</a></div>
+            <div class="category basket_collection">
+                <h2>New Baskets <span class="break"> Collection</span></h2>
+                <div class="shopnow_btn">
+                    <a href="#">Shop Now</a>
+                    <i data-feather="minus" ></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="products-container">
+            
+            <h2>Best Products</h2>
+            <div class="product-description">
+                <div class="product furniture">
+                    <p>Christopher Knight Furniture</p>
+                    <p class="price">$ 235.23</p>
+                </div>
+
+                <div class="product cup">
+                    <p>Wheat Straw unbreakable cup</p>
+                    <p class="price">$ 67.15</p>
+                </div>
+
+                <div class="product bag">
+                    <p>Adidas Classic Bag</p>
+                    <p class="price">$ 49.82</p>
+                </div>
+
+                <div class="product pencil-holder">
+                    <p>Desk Pencil - Pen Holder</p>
+                    <p class="price">$ 22.30</p>
+                </div>
+
+                <div class="product key-holder">
+                    <p>Ripple Creak Key Holder</p>
+                    <p class="price">$ 8.13<p>
+                </div>
+
+                <div class="product cotton-canvas">
+                    <p>Economical Cotton Canvas</p>
+                    <p class="price">$ 11.08</p>
+                </div>
+
+                <div class="product michael-kors-original">
+                    <p>Michael Kors Original</p>
+                    <p class="price">$ 15.10</p>
+                </div>
+
+                <div class="product bostanten-women-leather">
+                    <p>Bostanten Women Leather</p>
+                    <p class="price">$ 234.26</p>
+                </div>
     
             </div>
         </div>
-        
+    </section>
+
+    <section class="blog" id="blog">
+        <div class="blog-container">
+
+        </div>
 
     </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="contact" id="contact">
+                <div>
+                    <div class="footer_logo">
+                        <img src="./assets/logo.png" alt="Footer logo">
+                    </div>
+                    <div class="address">
+                        <div class="location-address">
+                           <i data-feather="map-pin"></i>
+                           <div class="test-address">194 Main Rd T, FS Rayed, USA</div>
+                        </div>
+                        <div class="mail-address">
+                            <i data-feather="mail"></i>
+                            <div class="text-address">info@tmart.org</div>
+                        </div>
+                        <div class="phone-address">
+                            <i data-feather="phone"></i>
+                            <div class="text-address">+233 244 244 244</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="subscription-form">
+                    <div class="subscribe">Subscribe to our newsletter and get 10% off your first purchase</div>
+                    <form action="#" class="form">
+                        <p>
+                           <label for="email"><span class="sr-only">Email</span></label>
+                           <input type="email" placeholder="Enter email address" id="email">
+                       </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="custom-hr"></div>
+        <div class="copyright">
+            <p>&copy; Tmart - All rights reserved</p>
+        </div>
+    </footer>
 
 
 
